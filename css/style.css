@@ -8,7 +8,6 @@
 body {
     display: flex;
     flex-direction: column;
-    text-decoration: none;
     background-color: aqua;
 }
 
@@ -26,5 +25,18 @@ nav {
 
 .idk {
     color: blueviolet;
-    font size: 38px;
+    font-size: 38px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
 }
