@@ -11,3 +11,20 @@ body {
     text-decoration: none;
     background-color: aqua;
 }
+
+.pink {
+    height: auto;
+    width: auto;
+    background-image: url(../css/images/R.jpg);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.idk {
+    color: blueviolet;
+    font size: 38px;
+}
