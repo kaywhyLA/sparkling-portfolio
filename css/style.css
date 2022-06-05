@@ -69,3 +69,7 @@ h3 {
 .btn:hover {
     transform: scale(1);
 }
+
+.social {
+    font-size: 50px;
+}
