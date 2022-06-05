@@ -8,7 +8,7 @@
 .pink {
     height: 100vh;
     width: 100%;
-    background-image: url(../css/images/TepidCookedArawana-size_restricted.gif);
+    background-image: url(../css/images/pastel\ changing\ gif.gif);
     background-size: cover;
     background-position: center;
 }
@@ -60,16 +60,25 @@ h3 {
     color: white;
     border: 1px solid transparent;
     font-weight: bold;
-    padding: 5px 5px;
+    padding: 10px 10px;
     border-radius: 10px;
     text-decoration: none;
-    display: inline-block;
+    display: inline;
+    transform: translate(600%, -150%);
 }
 
 .btn:hover {
-    transform: scale(1);
+    background-color: lightblue;
 }
 
 .social {
     font-size: 50px;
+    float: right;
+    position: absolute;
+    top: 5%;
+    left: 90%;
+}
+
+.social:hover {
+    background-color: lightblue;
 }
