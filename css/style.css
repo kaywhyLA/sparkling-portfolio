@@ -102,13 +102,71 @@ h3 {
     transform: scale(1.2);
 }
 
-.contact {
-    text-align: center;
-    position: relative;
+.avatar {
+    width: 115px;
+    height: 115px;
+    border-radius: 50%;
+    overflow: auto;
+    display: flex;
+    position: absolute;
+    top: 355px;
+    left: 335px;
 }
 
-div ul li {
+img {
+    width: 100%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+}
+
+.contact-content {
+    height: 300px;
+    width: 250px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
     text-align: center;
-    display: inline-block;
-    letter-spacing: 2px;
+}
+
+.about {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    min-height: 150px;
+}
+
+.about-content {
+    height: 300px;
+    width: 250px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    min-height: 150px;
+}
+
+.skills-content {
+    height: 300px;
+    width: 250px;
+    background-color: lightblue;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
 }
