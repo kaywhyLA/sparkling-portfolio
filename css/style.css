@@ -8,9 +8,13 @@
 .pink {
     height: 100vh;
     width: 100%;
+}
+
+body {
     background-image: url(../css/images/pastel\ changing\ gif.gif);
     background-size: cover;
     background-position: center;
+    height: 100%;
 }
 
 nav {
@@ -69,6 +73,7 @@ h3 {
 
 .btn:hover {
     background-color: lightblue;
+    box-shadow: inset;
 }
 
 .social {
@@ -80,7 +85,8 @@ h3 {
 }
 
 .social:hover {
-    background-color: lightblue;
+    color: black;
+    transform: scale(1.2);
 }
 
 .twitter-social {
@@ -89,4 +95,20 @@ h3 {
     position: absolute;
     top: 5%;
     left: 85%;
+}
+
+.twitter-social:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.contact {
+    text-align: center;
+    position: relative;
+}
+
+div ul li {
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 2px;
 }
